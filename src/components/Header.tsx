@@ -7,19 +7,19 @@ const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       // Update header style on scroll
       setIsScrolled(window.scrollY > 10);
-      
+
       // Update active section based on scroll position
       const sections = document.querySelectorAll('section[id]');
       sections.forEach(section => {
         const sectionTop = section.offsetTop - 100;
         const sectionHeight = section.offsetHeight;
         const sectionId = section.getAttribute('id') || '';
-        
+
         if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
           setActiveSection(sectionId);
         }
@@ -48,21 +48,24 @@ const Header: React.FC = () => {
   return (
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'backdrop-blur-md bg-gray-900/80 py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <div className="text-xl font-bold text-white flex items-center">
-          <span className="bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">DG</span>
+        <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex items-center">
+          <img
+            src="../../public/favicon-nobg.png"
+            alt="Devang Gentyal Logo"
+            className="w-full h-full object-contain"
+          />
         </div>
-        
+
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
           {navItems.map((item) => (
             <button
               key={item.id}
               onClick={() => handleNavClick(item.id)}
-              className={`py-1 text-sm transition-all relative ${
-                activeSection === item.id 
-                  ? 'text-white font-medium' 
+              className={`py-1 text-sm transition-all relative ${activeSection === item.id
+                  ? 'text-white font-medium'
                   : 'text-gray-400 hover:text-gray-200'
-              }`}
+                }`}
             >
               {item.label}
               {activeSection === item.id && (
@@ -73,8 +76,8 @@ const Header: React.FC = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <button 
-          onClick={toggleMenu} 
+        <button
+          onClick={toggleMenu}
           className="md:hidden text-white focus:outline-none"
           aria-label="Toggle menu"
         >
@@ -83,21 +86,19 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Navigation */}
-      <div 
-        className={`fixed inset-0 bg-gray-900/95 backdrop-blur-lg z-40 transition-transform duration-300 ease-in-out ${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        } md:hidden flex flex-col justify-center items-center`}
+      <div
+        className={`fixed inset-0 bg-gray-900/95 backdrop-blur-lg z-40 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'
+          } md:hidden flex flex-col justify-center items-center`}
       >
         <nav className="flex flex-col space-y-6 items-center">
           {navItems.map((item) => (
             <button
               key={item.id}
               onClick={() => handleNavClick(item.id)}
-              className={`text-2xl font-bold transition-all ${
-                activeSection === item.id 
-                  ? 'text-white' 
+              className={`text-2xl font-bold transition-all ${activeSection === item.id
+                  ? 'text-white'
                   : 'text-gray-400'
-              }`}
+                }`}
             >
               {item.label}
             </button>
