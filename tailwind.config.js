@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        myfont: ['myfont', 'sans-serif'],
       },
       colors: {
         gray: {
