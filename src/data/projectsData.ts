@@ -45,7 +45,7 @@ export const projectsData: Project[] = [
   {
     title: 'SnapMeal – Advanced Calorie Tracker & Meal Planner (Pending)',
     description: 'Stack: Flutter, Firebase, Gemini Vision, Lallma',
-    icon: '🍱',
+    icon: '🍔',
     technologies: ['Flutter', 'Firebase', 'Gemini Vision', 'Lallma'],
     githubLink: 'https://github.com/DevangGentyal',
     liveLink: 'https://youtu.be/0iZPshAPWwc'
@@ -53,7 +53,7 @@ export const projectsData: Project[] = [
   {
     title: 'ToolGenie – AI Powered Tool/App Finder (Pending)',
     description: 'Stack: NextJS, Tailwind CSS, Prisma, MySQL, Scraping',
-    icon: '🧰',
+    icon: '🤖',
     technologies: ['NextJS', 'Tailwind CSS', 'Prisma', 'MySQL', 'Scraping'],
     githubLink: 'https://github.com/DevangGentyal',
     liveLink: 'https://toolgenie.example.com'
