@@ -23,7 +23,7 @@ const About: React.FC = () => {
           
           <div data-aos="fade-left">
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a student pursuing a BTech in <span className="text-cyan-400 font-medium">Artificial Intelligence and Data Science</span> at Vishwakarma Institute of Technology.
+              I'm a student pursuing a BTech in Artificial Intelligence and Data Science at Vishwakarma Institute of Technology.
             </p>
             
             {/* <p className="text-lg text-gray-300 mb-6 leading-relaxed">
@@ -31,7 +31,7 @@ const About: React.FC = () => {
             </p> */}
             
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              Passionate about tech, I explore <span className="text-fuchsia-400 font-medium">Web & App Development</span> and <span className="text-cyan-400 font-medium">AI/ML</span>.
+              Passionate about tech, I explore Web & App Development and AI/ML.
             </p>
             
             <div className="relative p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 mb-8 group hover:border-cyan-500/50 transition-all duration-300">
