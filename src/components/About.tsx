@@ -14,7 +14,7 @@ const About: React.FC = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-tl from-purple-500/20 to-cyan-500/20" />
             <img 
-              src="../../public/about-img-2.png" 
+              src="../../public/about-img-1.png" 
               alt="Programmer working on code" 
               className="w-full h-full object-cover object-center"
             />
