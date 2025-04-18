@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
               </Button>
             </a>
 
-            <a href="https://github.com/DevangGentyal/"><Button variant="secondary" icon={<Github size={18} />}>
+            <a href="https://github.com/DevangGentyal/" target="_blank"><Button variant="secondary" icon={<Github size={18} />}>
               GitHub
             </Button></a>
 
