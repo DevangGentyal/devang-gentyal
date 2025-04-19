@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     description: 'Stack: Flutter, Dart, OpenStreetMaps, Firebase',
     icon: '🛡️',
     technologies: ['Flutter', 'Dart', 'OpenStreetMaps', 'Firebase'],
-    githubLink: 'https://github.com/DevangGentyal',
+    githubLink: 'https://github.com/DevangGentyal/women-safety',
     liveLink: 'https://safetyapp.example.com'
   },
   {
@@ -39,7 +39,7 @@ export const projectsData: Project[] = [
     description: 'Stack: Python, Flask, React, JS, ML, DS',
     icon: '👗',
     technologies: ['Python', 'Flask', 'React', 'JavaScript', 'ML', 'DS'],
-    githubLink: 'https://github.com/DevangGentyal',
+    githubLink: 'https://github.com/DevangGentyal/fashion-trend',
     liveLink: 'https://fashionpredictor.example.com'
   },
   {
@@ -47,7 +47,7 @@ export const projectsData: Project[] = [
     description: 'Stack: AWS, Lakehouse, NextJS, Tailwind CSS, Prisma, MySQL',
     icon: '📊',
     technologies: ['AWS', 'Lakehouse', 'NextJS', 'Tailwind CSS', 'Prisma', 'MySQL'],
-    githubLink: 'https://github.com/DevangGentyal',
+    githubLink: 'https://github.com/rugvedi20/metastore-viewer',
     liveLink: 'https://metastore.example.com'
   },
   {
@@ -63,7 +63,7 @@ export const projectsData: Project[] = [
     description: 'Stack: Python, Machine Learning, Data Science',
     icon: '📁',
     technologies: ['Python', 'Machine Learning', 'Data Science'],
-    githubLink: 'https://github.com/DevangGentyal',
+    githubLink: 'https://github.com/DevangGentyal/project-hub',
     liveLink: 'https://youtu.be/0iZPshAPWwc'
   },
   {
