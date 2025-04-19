@@ -71,13 +71,13 @@ const Projects: React.FC = () => {
                   </a>
                   {project.liveLink && (
                     <a 
-                      href={project.liveLink} 
+                      href='https://github.com/DevangGentyal/aanya' 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-1"
                     >
                       <ExternalLink size={16} />
-                      <span>Live</span>
+                      <span>Demo</span>
                     </a>
                   )}
                 </div>
