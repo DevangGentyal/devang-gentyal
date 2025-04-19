@@ -27,7 +27,8 @@ const Projects: React.FC = () => {
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-xl opacity-0 group-hover:opacity-20 transition-all duration-500 blur-xl" />
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-xl opacity-0 group-hover:opacity-20 transition-all duration-500 blur-xl pointer-events-none" />
+
 
               <div className="p-6 flex flex-col h-full">
                 {/* Icon and Title Section - Fixed Height */}

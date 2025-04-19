@@ -55,7 +55,7 @@ export const projectsData: Project[] = [
     description: 'Stack: Flutter, Firebase, Gemini Vision, Lallma',
     icon: '🍔',
     technologies: ['Flutter', 'Firebase', 'Gemini Vision', 'Lallma'],
-    githubLink: 'https://github.com/DevangGentyal',
+    githubLink: 'https://github.com/DevangGentyal/snap_meal',
     liveLink: 'https://youtu.be/0iZPshAPWwc'
   },
   {
@@ -71,8 +71,8 @@ export const projectsData: Project[] = [
     description: 'Built with Java Swing UI framework',
     icon: '🧩',
     technologies: ['Java', 'Swing'],
-    githubLink: 'https://github.com/DevangGentyal',
-    liveLink: 'https://youtu.be/0iZPshAPWwc'
+    githubLink: 'https://github.com/Mayuresh-22/PictoPair',
+    liveLink: 'https://darshangentyal02.wixsite.com/pictopair-memorygame'
   },
   {
     title: 'NexRise – AI Personal Branding Assistant',
@@ -82,13 +82,6 @@ export const projectsData: Project[] = [
     githubLink: 'https://github.com/DevangGentyal/nexrise',
     liveLink: 'https://nexrise.example.com'
   },
-  {
-    title: 'ToolGenie – AI Powered Tool/App Finder',
-    description: 'Stack: NextJS, Tailwind CSS, Prisma, MySQL, Scraping',
-    icon: '🤖',
-    technologies: ['NextJS', 'Tailwind CSS', 'Prisma', 'MySQL', 'Scraping'],
-    githubLink: 'https://github.com/DevangGentyal',
-    liveLink: 'https://toolgenie.example.com'
-  },
+
   
 ];
